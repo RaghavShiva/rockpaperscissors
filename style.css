@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    align-items: center;
   }
   body{
     background-color: #e9edc9;
@@ -11,20 +12,21 @@
    
   }
  #rps{
-  height:30vh;
+  height:30vmin;
   
 }
  .choice_s{
-  height: 20vh;
-  width: 20vh;
+  height: 25vmin;
+  width: 25vmin;
   border-radius: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
   color:white;
   background-color: rgb(100,100,300);
-  font-size: 5vh;
-  padding: 1rem;
+  font-size: 4.5vmin;
+  
+  flex-wrap: wrap;
  }
  .choice_s:hover {
   cursor: pointer;
@@ -38,6 +40,7 @@
     align-items: center;
     gap: 5rem;
     margin-top: 5rem;
+    flex-wrap: wrap;
 }
   h1 {
     background-color: #081b31;
@@ -47,8 +50,8 @@
   }
   
   .choice {
-    height: 10.5rem;
-    width: 10.5rem;
+    height: 22vmin;
+    width: 22vmin;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -61,8 +64,8 @@
   }
   
   .game_img {
-    height: 22vh;
-    width: 22vh;
+    height: 20vmin;
+    width: 20vmin;
     object-fit: cover;
     border-radius: 50%;
   }
@@ -73,21 +76,22 @@
     align-items: center;
     gap: 3rem;
     margin-top: 5rem;
+    flex-wrap: wrap;
   }
   
   .score-board {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 6vmin;
     margin-top: 3rem;
-    gap: 5rem;
+    gap: 15vmin;
     color:royalblue;
   }
   
   #user-score,
   #comp-score {
-    font-size: 4rem;
+    font-size: 6vmin;
   }
   
   .msg-container {
@@ -97,10 +101,10 @@
   #msg {
     background-color: #081b31;
     color: #fff;
-    font-size: 2rem;
+    font-size: 5vmin;
     display: inline;
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 3vmin;
+    border-radius: 3vmin;
   }
   
   #msgg {
@@ -108,11 +112,14 @@
     font-family: sans-serif;
     font-style: oblique;
     color:#3a5a40;
-    font-size: 8vmin;
+    font-size: 7vmin;
+    flex-wrap: wrap;
+    padding: 2vmin;
   }
   
   .msgg-container {
-    height: 100vmin;
+    margin-top: 10vmin;
+    height: 80vmin;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,12 +130,12 @@
     display: none;
   }
   #new{
-    height:10rem;
+    height:25vmin;
     
   }
   #new-btn {
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 4vmin;
     background-color:#e9edc9;
     border: none;
   }
